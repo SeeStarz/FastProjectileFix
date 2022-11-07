@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.seestarz.fast_projectile_fix.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "fast_projectile_fix.refmap.json",
+  "mixins": [
+
+  ],
+  "client": [
+    "MixinSEntityVelocityPacket"
+  ],
+  "minVersion": "0.8"
+}
