@@ -1,2 +1,2 @@
 # Repository for FastProjectileFix
-[Forge link]().
+[Forge link](https://www.curseforge.com/minecraft/mc-mods/fast-projectile-fix).
