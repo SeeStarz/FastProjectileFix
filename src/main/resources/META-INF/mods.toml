@@ -34,7 +34,7 @@ credits="Everyone who directly and indirectly helped me to develop this mod" #op
 authors="SeeStarz" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-    Fix fast projectiles not rendered in appropriate location.
+    Fix fast projectiles not rendered properly clientside.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.fast_projectile_fix]] #optional
