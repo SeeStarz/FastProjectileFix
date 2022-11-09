@@ -1,6 +1,5 @@
 package com.seestarz.fast_projectile_fix.mixin;
 
-import com.seestarz.fast_projectile_fix.FastProjectileFix;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.play.server.SEntityVelocityPacket;
 import net.minecraft.util.math.vector.Vector3d;
@@ -32,9 +31,6 @@ public class MixinSEntityVelocityPacket {
         this.motionX = (int)(motionVector.x * 8000.0D);
         this.motionY = (int)(motionVector.y * 8000.0D);
         this.motionZ = (int)(motionVector.z * 8000.0D);
-
-        FastProjectileFix.LOGGER.info(motionVector.toString());
-        FastProjectileFix.LOGGER.info("entityId: ${entityId}");
     }
 
     @Inject(method = "Lnet/minecraft/network/play/server/SEntityVelocityPacket;readPacketData" +
