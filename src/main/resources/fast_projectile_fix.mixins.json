@@ -4,9 +4,6 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "fast_projectile_fix.refmap.json",
   "mixins": [
-
-  ],
-  "client": [
     "MixinSEntityVelocityPacket"
   ],
   "minVersion": "0.8"
